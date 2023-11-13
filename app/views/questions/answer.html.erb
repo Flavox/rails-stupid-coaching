@@ -1,0 +1,8 @@
+<div class='w-50 position-absolute top-0 start-50 translate-middle-x'>
+  <h1>Stupid Coaching</h1>
+  <div>
+    <p class='alert alert-light  ms-3 w-50 border-start border-5'> Tu as dis au coach : <%= @usrquery %> </p>
+    <p class='alert alert-warning ms-3 w-50 border-start border-5 border-0'> Coach : <%= @answer %> </p>
+  </div>
+  <%= link_to "Poser une nouvelle question au coach", ask_path %>
+</div>
